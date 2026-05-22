@@ -15,6 +15,7 @@
 
 <p align="center">
   <a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License: MIT" /></a>
+  <a href="https://github.com/Dev-Lahrani/Veli-Chat/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/Dev-Lahrani/Veli-Chat/ci.yml?branch=main" alt="CI status" /></a>
   <img src="https://img.shields.io/badge/version-0.4.0-purple.svg" alt="Version 0.4.0" />
   <img src="https://img.shields.io/badge/node-%3E%3D22-brightgreen.svg" alt="Node >= 22" />
   <img src="https://img.shields.io/badge/pnpm-9-F69220.svg?logo=pnpm" alt="pnpm 9" />
@@ -22,24 +23,39 @@
   <img src="https://img.shields.io/badge/biome-checked-60a65e.svg?logo=biome" alt="Biome" />
 </p>
 
+<p align="center">
+  <img src="./docs/assets/hero.svg" alt="Veli-Chat hero banner" width="900" />
+</p>
+
+<p align="center">
+  <a href="#quick-start">Quick start</a> |
+  <a href="#features">Features</a> |
+  <a href="#security--threat-model">Security</a> |
+  <a href="#tests">Tests</a>
+</p>
+
 ---
 
-## Screenshots
+## Visual preview
 
-> Capture screenshots and place them in `docs/screenshots/`, then update the paths below.
+Lightweight SVG illustrations (not screenshots).
 
-```
-├── docs/
-│   └── screenshots/
-│       ├── menu.png           # Interactive start/join menu
-│       ├── chat.png           # Live chat view with messages
-│       ├── safety-grid.png    # /whois 4×4 colored shape grid
-│       └── help.png           # /help command output
-```
+| Terminal preview | Safety grid | Invite flow |
+|---|---|---|
+| ![Terminal preview](./docs/assets/terminal-preview.svg) | ![Safety grid](./docs/assets/safety-grid.svg) | ![Invite flow](./docs/assets/invite-flow.svg) |
 
-| Menu | Chat | Safety Grid | Help |
-|---|---|---|---|
-| `menu.png` | `chat.png` | `safety-grid.png` | `help.png` |
+---
+
+## Quick facts
+
+| Property | Value |
+|---|---|
+| Session | Two-party, ephemeral |
+| Storage | RAM only; wiped on exit |
+| Transport | Tor v3 onion (default) |
+| Cryptography | X3DH + Double Ratchet |
+| Wire obfuscation | Padded frame buckets |
+| CLI runtime | Node.js 22+, pnpm 9 |
 
 ---
 
@@ -346,6 +362,15 @@ pnpm lint
 | [@noble/*](https://github.com/paulmillr/noble-hashes) | Audited crypto primitives |
 | [socks](https://github.com/JoshGlazebrook/socks) | SOCKS5 client |
 | [Tor](https://www.torproject.org/) | v3 onion services |
+
+---
+
+## FAQ
+
+**Does it store messages or keys?** No. All state lives in memory and is wiped on exit.  
+**Can I use it without Tor?** Only for local testing with `--lan`; it has no anonymity.  
+**Is it group chat?** Not currently. Sessions are two-party only.  
+**Do I need an account?** No accounts, usernames, or identifiers are required.
 
 ---
 

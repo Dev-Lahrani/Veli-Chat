@@ -1,0 +1,47 @@
+<svg width="720" height="480" viewBox="0 0 720 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Safety number grid illustration">
+  <rect width="720" height="480" rx="20" fill="#0b1020" />
+  <rect x="40" y="40" width="640" height="400" rx="16" fill="#0f172a" stroke="#1f2937" />
+  <text x="70" y="90" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="18" fill="#e2e8f0">
+    Safety grid (4x4)
+  </text>
+  <g transform="translate(90 120)">
+    <rect x="0" y="0" width="120" height="80" rx="10" fill="#1d4ed8" />
+    <circle cx="60" cy="40" r="16" fill="#e2e8f0" />
+    <rect x="140" y="0" width="120" height="80" rx="10" fill="#9333ea" />
+    <rect x="180" y="24" width="40" height="32" rx="6" fill="#e2e8f0" />
+    <rect x="280" y="0" width="120" height="80" rx="10" fill="#059669" />
+    <path d="M340 20 L360 60 L320 60 Z" fill="#e2e8f0" />
+    <rect x="420" y="0" width="120" height="80" rx="10" fill="#b91c1c" />
+    <circle cx="480" cy="40" r="16" fill="#e2e8f0" />
+
+    <rect x="0" y="100" width="120" height="80" rx="10" fill="#0ea5e9" />
+    <rect x="40" y="124" width="40" height="32" rx="6" fill="#e2e8f0" />
+    <rect x="140" y="100" width="120" height="80" rx="10" fill="#16a34a" />
+    <path d="M200 120 L220 160 L180 160 Z" fill="#e2e8f0" />
+    <rect x="280" y="100" width="120" height="80" rx="10" fill="#a21caf" />
+    <circle cx="340" cy="140" r="16" fill="#e2e8f0" />
+    <rect x="420" y="100" width="120" height="80" rx="10" fill="#ea580c" />
+    <rect x="460" y="124" width="40" height="32" rx="6" fill="#e2e8f0" />
+
+    <rect x="0" y="200" width="120" height="80" rx="10" fill="#6d28d9" />
+    <path d="M60 220 L80 260 L40 260 Z" fill="#e2e8f0" />
+    <rect x="140" y="200" width="120" height="80" rx="10" fill="#0284c7" />
+    <circle cx="200" cy="240" r="16" fill="#e2e8f0" />
+    <rect x="280" y="200" width="120" height="80" rx="10" fill="#10b981" />
+    <rect x="320" y="224" width="40" height="32" rx="6" fill="#e2e8f0" />
+    <rect x="420" y="200" width="120" height="80" rx="10" fill="#dc2626" />
+    <path d="M480 220 L500 260 L460 260 Z" fill="#e2e8f0" />
+
+    <rect x="0" y="300" width="120" height="80" rx="10" fill="#1e40af" />
+    <circle cx="60" cy="340" r="16" fill="#e2e8f0" />
+    <rect x="140" y="300" width="120" height="80" rx="10" fill="#7c3aed" />
+    <rect x="180" y="324" width="40" height="32" rx="6" fill="#e2e8f0" />
+    <rect x="280" y="300" width="120" height="80" rx="10" fill="#15803d" />
+    <path d="M340 320 L360 360 L320 360 Z" fill="#e2e8f0" />
+    <rect x="420" y="300" width="120" height="80" rx="10" fill="#c2410c" />
+    <circle cx="480" cy="340" r="16" fill="#e2e8f0" />
+  </g>
+  <text x="70" y="430" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" fill="#94a3b8">
+    Compare grids out-of-band to detect MITM.
+  </text>
+</svg>

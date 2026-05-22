@@ -1,0 +1,23 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Invite flow illustration">
+  <rect width="1200" height="320" rx="20" fill="#0b1020" />
+  <rect x="40" y="40" width="1120" height="240" rx="16" fill="#0f172a" stroke="#1f2937" />
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="18" fill="#e2e8f0">
+    <rect x="80" y="110" width="160" height="80" rx="12" fill="#111827" stroke="#334155" />
+    <text x="112" y="155">Start</text>
+    <rect x="280" y="110" width="180" height="80" rx="12" fill="#111827" stroke="#334155" />
+    <text x="310" y="155">Share code</text>
+    <rect x="500" y="110" width="180" height="80" rx="12" fill="#111827" stroke="#334155" />
+    <text x="535" y="155">Connect</text>
+    <rect x="720" y="110" width="160" height="80" rx="12" fill="#111827" stroke="#334155" />
+    <text x="755" y="155">Chat</text>
+    <rect x="920" y="110" width="200" height="80" rx="12" fill="#111827" stroke="#334155" />
+    <text x="965" y="155">End + wipe</text>
+    <path d="M240 150 H280" stroke="#64748b" stroke-width="2" />
+    <path d="M460 150 H500" stroke="#64748b" stroke-width="2" />
+    <path d="M680 150 H720" stroke="#64748b" stroke-width="2" />
+    <path d="M880 150 H920" stroke="#64748b" stroke-width="2" />
+  </g>
+  <text x="80" y="245" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" fill="#94a3b8">
+    Invite codes bundle onion address + X3DH data + signature.
+  </text>
+</svg>
