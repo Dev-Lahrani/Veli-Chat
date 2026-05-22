@@ -1,0 +1,25 @@
+{
+  "name": "veilchat",
+  "version": "0.4.0",
+  "description": "Two-party, end-to-end encrypted, serverless, ephemeral terminal chat over Tor.",
+  "keywords": ["chat", "e2ee", "tor", "encryption", "double-ratchet", "terminal", "privacy"],
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "bin": {
+    "veil": "./dist/index.js",
+    "veilchat": "./dist/index.js"
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "test": "vitest run --passWithNoTests"
+  },
+  "dependencies": {
+    "veilchat-protocol": "workspace:*",
+    "socks": "^2.8.3"
+  },
+  "devDependencies": {}
+}
